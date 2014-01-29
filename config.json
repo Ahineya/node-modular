@@ -1,0 +1,30 @@
+{   
+	"processes": 
+	{
+
+		"router": 
+		{
+			"file": "router",
+			"version": "0.0.1",
+			"instance": null,
+			"message_processing" : "straight",
+			"actions":[]
+		},
+		"test": 
+		{
+			"file": "test",
+			"version": "0.0.1",
+			"instance": null,
+			"message_processing" : "straight",
+			"actions": [
+				"test-example"
+			]
+		}		
+
+	},
+	"dburl" : "postgres://webuser:password@127.0.0.1:5432/test",
+	"port"	: 8888,
+	"modules_folder" : "./modules/",
+	"environment" : "develop"
+} 
+
